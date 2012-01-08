@@ -1,4 +1,11 @@
-jQuery(document).ready( function($) {
-	$('#menu-hovedmenu > li:first-child').addClass('first-item');
-	$('#menu-hovedmenu > li:last-child').addClass('last-item');
-} );
+(function ($) {
+	
+	jQuery(document).ready( function($) {
+			$('.menu li:first').addClass('first-item');
+			$('.menu li:last').addClass('last-item');
+		});
+		
+
+})(jQuery);	
+
+
